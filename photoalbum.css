@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; }
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 100%;
+  background-color: blue;
+  text-align: center; }
+
+.side-button-container {
+  width: 10%;
+  display: inline-block;
+  position: fixed; }
+
+button {
+  color: #900;
+  border: 2px solid #900;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-top: 20%; }
+
+.photo-boxes-container {
+  width: 89%;
+  display: inline-block;
+  float: right;
+  overflow: hidden; }
+
+.baller {
+  border: solid white 0.45em;
+  width: 20%;
+  display: inline-block;
+  overflow: hidden;
+  height: 450px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px; }
+
+.hidden {
+  display: none; }

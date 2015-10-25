@@ -1,3 +1,9 @@
+body {
+  background-color: black;
+  background-image: url(http://www.hdwalley.com/wp-content/uploads/2015/10/black_background_perfect_2067_high_definition.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
 .wrapper {
   position: relative;
   width: 100%;
@@ -8,8 +14,9 @@ header {
   margin-right: auto;
   height: 150px;
   width: 100%;
-  background-color: blue;
-  text-align: center; }
+  text-align: center;
+  color: white;
+  font-size: 600%; }
 
 .side-button-container {
   width: 10%;
@@ -32,14 +39,28 @@ button {
   overflow: hidden; }
 
 .baller {
-  border: solid white 0.45em;
+  border: solid grey 0.45em;
   width: 20%;
   display: inline-block;
   overflow: hidden;
-  height: 450px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 40px; }
+  margin-left: 90px;
+  margin-right: 60px;
+  margin-top: 110px; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+button {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+
+button:hover {
+  transition: 240ms all ease; }
 
 .hidden {
   display: none; }
+
+.shot-caller:hover {
+  -webkit-transform: scale(2.1);
+  transform: scale(2.1); }
